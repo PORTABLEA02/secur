@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styles personnalisés pour l'application */
+.shadow-sm {
+    android-elevation: 2;
+    ios-shadow-offset: 0 1;
+    ios-shadow-opacity: 0.1;
+    ios-shadow-radius: 3;
+}
+
+TextField {
+    border-width: 1;
+    border-radius: 6;
+}
+
+Button {
+    border-radius: 6;
+    font-weight: 500;
+}
+
+ListView {
+    separator-color: transparent;
+}
+
+ActivityIndicator {
+    color: #2563eb;
+}
+
+/* Couleurs personnalisées */
+.bg-blue-600 {
+    background-color: #2563eb;
+}
+
+.text-blue-600 {
+    color: #2563eb;
+}
+
+.bg-orange-600 {
+    background-color: #ea580c;
+}
+
+.text-orange-600 {
+    color: #ea580c;
+}
+
+.bg-red-100 {
+    background-color: #fee2e2;
+}
+
+.text-red-700 {
+    color: #b91c1c;
+}
+
+.bg-gray-50 {
+    background-color: #f9fafb;
+}
+
+.bg-gray-100 {
+    background-color: #f3f4f6;
+}
+
+.bg-gray-500 {
+    background-color: #6b7280;
+}
+
+.text-gray-600 {
+    color: #4b5563;
+}
+
+.text-gray-700 {
+    color: #374151;
+}
+
+.text-gray-800 {
+    color: #1f2937;
+}
+
+.text-gray-900 {
+    color: #111827;
+}
+
+.border-gray-200 {
+    border-color: #e5e7eb;
+}
+
+.border-gray-300 {
+    border-color: #d1d5db;
+}
